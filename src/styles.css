@@ -1,0 +1,181 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@media screen and (width < 600px) {
+    .first-page .header-one .img {
+        padding: 30px;
+    }
+
+    .first-page .header-one .menu {
+        gap: 20px;
+    }
+
+    .first-page-content {
+        padding: 50px;
+    }
+
+    .first-page-content-1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .page-tow-header {
+
+        justify-self: center;
+    }
+
+    .page-tow-main {
+        padding: 50px;
+        justify-self: center;
+    }
+
+    .page-tow-one {
+        width: 100%;
+    }
+
+    .page-three-main {
+        padding: 50px;
+        justify-self: center;
+    }
+
+    .page-three-one {
+        width: 100%;
+    }
+
+
+
+    .page-five {
+        padding: 50px;
+        justify-content: center;
+    }
+
+    .page-four-one {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .page-five-main {
+        padding: 80px;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (width < 760px) {
+    .page-six-one {
+        padding: 0px;
+        gap: 50px;
+    }
+
+    .page-six-one-cnt {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .page-six-one-cnt-1 {
+        justify-content: center;
+        padding: 10px;
+        width: 30%;
+    }
+
+    .page-six-one-cnt-2 {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 30%;
+    }
+
+    .page-six-one-cnt-3 {
+        justify-content: center;
+        padding: 10px;
+        width: 20%;
+    }
+
+    .page-six-one-cnt-4 {
+        justify-content: center;
+        padding: 10px;
+        width: 30%;
+    }
+
+    .page-six-one-cnt-5 {
+        justify-content: center;
+        padding: 10px;
+        width: 30%;
+    }
+
+    .page-six-one-cnt-6 {
+        justify-content: center;
+        padding: 10px;
+        width: 30%;
+    }
+
+    .pad-left {
+        padding-left: 0;
+    }
+
+    .page-sevan-one-cnt {
+        gap: 80px;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nine-cnt-1 {
+        display: none;
+        width: 100%;
+    }
+
+    .nine-cnt-2 {
+        width: 100%;
+
+    }
+
+    .nine-cnt {
+        padding: 40px;
+    }
+
+    .page-ten-cnt {
+        padding: 0;
+    }
+
+    .page-ten-cnt-1 {
+        width: 50%;
+        padding: 40px;
+    }
+
+    .page-ten-cnt-2 {
+        width: 50%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-ten-cnt-3 {
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-ten-cnt-4 {
+        width: 100%;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+}
